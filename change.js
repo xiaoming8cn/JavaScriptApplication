@@ -1,3 +1,3 @@
 $(function(){
-  $('h2').hide().slideDown();
+  $('ul').hide();
 });
