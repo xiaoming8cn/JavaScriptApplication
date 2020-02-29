@@ -1,2 +1,2 @@
-$(function(){$('li:contains("honey")').text('almonds');
+$(function(){$('li#three').text('almonds');
 });
