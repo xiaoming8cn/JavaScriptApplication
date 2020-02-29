@@ -1,6 +1,5 @@
 $(function(){
-  $('li').each(function(){
-    var ids = this.id;
-    $(this).append('<span class="order">' + ids + '</span>');
+  $('li').css({
+    'background-color': '#c5a996'
   });
 });
