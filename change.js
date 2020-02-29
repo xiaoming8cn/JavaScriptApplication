@@ -1,5 +1,5 @@
 $(function(){
-  $('body').css({
+  $('li').css({
     'background-color': '#000000';
   });
 });
