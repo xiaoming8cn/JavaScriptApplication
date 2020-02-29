@@ -1,9 +1,7 @@
 $(function(){
-  $('li').on('click', function(e){
+  $('li').on('click', function(){
+    var ids = this.id;
     
-    var date = new Date();
-    date.setTime(e.timeStamp);
-    var clicked=date.toDateString();
-    $(this).append('<span class="date">' +clicked + ''+e.type + '</span>');
+    $(this).append('<span class="dated">' +ids '</span>');
   });
 });
