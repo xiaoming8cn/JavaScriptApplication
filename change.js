@@ -1,2 +1,2 @@
-$(function(){$('li#three').text('almonds');
+$(function(){$('li').css({'background-colors' : '#c5a996'});
 });
