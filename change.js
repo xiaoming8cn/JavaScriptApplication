@@ -1,6 +1,6 @@
 $(function(){
- var $newButton = $('newButton");
- var $newForm = $('newForm');
+ var $newButton = $('#newButton');
+ var $newForm = $('#newForm');
  var $testInput = $('input:text');
   
   $newButton.show();
@@ -13,7 +13,7 @@ $(function(){
   
   $newForm.on('submit', function(e){
     e.preventDefault();
-    var newText=$testInput.vul();
+    var newText=$testInput.val();
     $('li:last').after('<li>'+newText+'</li>');
     $newForm.hide();
     $newButton.show();
